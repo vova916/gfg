@@ -17,22 +17,19 @@ A powerful Telegram bot built with Python and `pyTelegramBotAPI` that allows use
 
 ## Installation & Setup
 
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/vova916/gfg.git](https://github.com/vova916/gfg.git)
-   cd gfg or vs code ui.
+Copy and run the following commands in your terminal to set up and start the bot:
 
-Install dependencies:
+```bash
+# 1. Clone the repository and navigate to the project folder
+git clone [https://github.com/vova916/gfg.git](https://github.com/vova916/gfg.git)
+cd gfg
 
-Bash
+# 2. Install all required dependencies
 pip install pyTelegramBotAPI yt-dlp requests imageio-ffmpeg
-Create a config.py file based on config.example.py and insert your Telegram Bot Token:
 
-Python
-TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN'
-DOWNLOAD_DIR = 'D:/YouTube_Cache'
-Run the application:
+# 3. Create config.py file with your configuration
+echo TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN' > config.py
+echo DOWNLOAD_DIR = 'D:/YouTube_Cache' >> config.py
 
-Bash
+# 4. Run the bot application
 python main.py
-
