@@ -1,6 +1,6 @@
 # Universal Media Downloader Bot
 
-A powerful Telegram bot built with Python and `pyTelegramBotAPI` that allows users to seamlessly download media (audio and video) from various platforms including YouTube, TikTok, Pinterest, and Instagram.
+A powerful Telegram bot built with Python and `telebot` that allows users to seamlessly download media (audio and video) from various platforms including YouTube, TikTok, Pinterest, and Instagram.
 
 ## Features
 
@@ -13,7 +13,7 @@ A powerful Telegram bot built with Python and `pyTelegramBotAPI` that allows use
 ## Tech Stack
 
 - **Language**: Python 3
-- **Core Libraries**: `pyTelegramBotAPI`, `yt-dlp`, `requests`, `imageio-ffmpeg`
+- **Core Libraries**: `telebot`, `yt-dlp`, `requests`, `imageio-ffmpeg`
 
 ## Installation & Setup
 
