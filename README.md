@@ -25,7 +25,7 @@ git clone [https://github.com/vova916/gfg.git](https://github.com/vova916/gfg.gi
 cd gfg
 
 # 2. Install all required dependencies
-pip install pyTelegramBotAPI yt-dlp requests imageio-ffmpeg
+pip install telebot yt-dlp requests imageio-ffmpeg
 
 # 3. Create config.py file with your configuration
 echo TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN' > config.py
